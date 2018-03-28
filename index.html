@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cycling power calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Cycling power calculator</h1>
+    <section>
+      <ul id="controls-container">
+      </ul>
+
+      <div id="result">
+        <p>Power (W): <span id="power-result">0</span></p>
+      </div>
+    </section>
+
+    <section>
+      <svg id="graph">
+      </svg>
+    </section>
+
+    <script src="ui.js"></script>
+    <script src="model.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="graph.js"></script>
+  </body>
+</html>

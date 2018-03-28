@@ -1,0 +1,21 @@
+#controls-container {
+  list-style-type: none;
+  padding: 0;
+  width: 40%;
+}
+
+li {
+  display: flex;
+}
+
+label {
+  flex: 2;
+}
+
+input {
+  flex: 1;
+}
+
+select {
+  flex: 1;
+}
